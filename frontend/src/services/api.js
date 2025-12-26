@@ -1,4 +1,4 @@
-const BASE_URL = "https://equipment-tracker-686t.onrender.com/";
+const BASE_URL = "https://equipment-tracker-1-9l80.onrender.com";
 
 export const fetchEquipment = async () => {
   const res = await fetch(BASE_URL);

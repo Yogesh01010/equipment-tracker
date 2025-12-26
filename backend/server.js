@@ -13,7 +13,7 @@ app.get("/health", (req, res) => {
   res.json({ status: "OK" });
 });
 
-const PORT = 5001;   // 🔥 CHANGE HERE
+const PORT = 5001;
 app.listen(PORT, () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);
 });

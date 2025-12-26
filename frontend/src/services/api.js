@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5001/api/equipment";
+const BASE_URL = "https://equipment-tracker-686t.onrender.com/";
 
 export const fetchEquipment = async () => {
   const res = await fetch(BASE_URL);

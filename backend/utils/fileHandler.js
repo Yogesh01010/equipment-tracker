@@ -15,9 +15,7 @@ app.get("/", (req, res) => {
   res.send("Backend running fine");
 });
 
-// ❌ DO NOT ADD ANY OTHER app.use() BELOW THIS
-
 const PORT = 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
